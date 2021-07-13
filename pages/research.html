@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Research</title>
+
+	<meta name="description" content="Research">
+	<meta name="keywords" content="Comparing, comparision, research">
+
+	<link rel="stylesheet" href="../css/style.css">
+ 
+	<style>
+		*
+		{
+			margin: 0px auto;
+			font-family: arial;
+		}
+
+		.flip-card {/*Setting borders for card*/
+		  	width: 900px;
+		  	height: 500px;
+		  	perspective: 1000px;/*perspective set for animation*/
+		}
+
+		.flip-card-inner {
+		  	position: relative;
+		  	width: 100%;
+		  	height: 100%;
+		  	transition: transform 0.6s;/*animation*/
+		  	transform-style: preserve-3d;
+		  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		}
+
+		.flip-card:hover .flip-card-inner {
+		  	transform: rotateY(180deg);/*Rotate*/
+		}
+
+		.flip-card-front, .flip-card-back {
+		  	position: absolute;
+		  	width: 100%;
+		  	height: 100%;
+		  	backface-visibility: hidden;
+		}
+
+		.flip-card-back {
+		  	transform: rotateY(180deg);
+		}
+
+		h1{
+			padding-top: 40px;
+		}
+
+		.division{
+			text-align: center;
+			width: 75%
+		}
+
+		.size{
+			font-size: 12px;
+		}
+	</style>
+</head>
+<body>
+
+	<!--creating a wrapper-->
+	<div style="width: 100%; height: auto;">
+
+		
+		<!--Development header content and navigation-->
+		<header>
+			<!--Div for logo-->
+			<div class="logodiv">
+			
+				<a href="../index.html" class="logoimg">
+
+					<img src="../images/logo.png">
+				
+				</a>
+			
+			</div><!--end of div for logo-->
+
+			<nav>
+			
+				<a href="../index.html">Home</a>
+				<a href="extra.html">Information</a>
+				<a href="blog.html">Blogs</a>
+				<a href="CV.html">CV</a>
+				<a href="contactus.html">Contact Us</a>
+				<a href="research.html" style="color: #E59866">Research</a>
+
+			</nav>
+		</header>
+
+		<main style="width: 100%; height: auto;">
+			<div class="research"><!--div for background image-->
+				<div class="background" style="width:80%; height: 95%"><!--div for translucent background-->
+					<div class="division"><!--div for content-->
+						<h1>
+
+						Home:
+
+						</h1>
+							<br>
+							<div class="flip-card"><!--div for flip card-->
+								
+								<div class="flip-card-inner"><!--div for flip card content-->
+								
+									<div class="flip-card-front"><!--div for flip card front-->
+										<img src="../images/homeA.PNG" alt="Screenshot of home screen" style="width: 900px; height: 500px;">			
+									</div><!--end of div for flip card front-->
+								
+									<div class="flip-card-back"><!--end of div for flip card back-->
+										<a href="https://www.google.com/forms/about/" style="padding: 0; background-color: rgba(0,0,0,0);" target="_blank">
+										<img src="../images/homeR.PNG" alt="Home reference" style="width: 900px; height: 500px;">
+										</a>
+									</div><!--end of div for flip card back-->
+
+								</div><!--end of div for flip card content-->
+							</div><!--end of div for flip card-->
+
+						<p class="size">*Hover over the webpage to see the referenced website and click on it to open the aforementioned website.</p>
+						<br>
+						<div class="background"><!--div for translucent background-->
+						<p>
+							For home page, the animated typing and backspacing seemed to be an interesting choice in order to make it appealing to the user. Using java script, cascading style sheet (CSS) and hyper-text mark-up language(HTML), the animated typing was made successful. However, in the google forms website, the animation is paused for a certain time after it is done typing out. That is not the case with the home page.
+						</p>
+						</div>
+
+
+						<h1><hr style="margin-bottom: 25px;">
+
+						Information:
+
+						</h1>
+							<br>
+							<div class="flip-card"><!--div for flip card-->
+								
+								<div class="flip-card-inner"><!--div for flip card content-->
+								
+									<div class="flip-card-front"><!--div for flip card front-->
+										<img src="../images/extraA.PNG" alt="Screenshot of home screen" style="width: 900px; height: 500px;">			
+									</div><!--end of div for flip card front-->
+								
+									<div class="flip-card-back"><!--div for flip card back-->
+										<a href="https://www.skillshare.com/blog/" style="padding: 0; background-color: rgba(0,0,0,0);" target="_blank">
+										<img src="../images/extraR.PNG" alt="Home reference" style="width: 900px; height: 500px;">
+										</a>
+									</div><!--end of div for flip card back-->
+								</div><!--end of div for flip card content-->
+							</div><!--end of div for flip card-->
+
+						<p class="size">*Hover over the webpage to see the referenced website and click on it to open the aforementioned website.</p>
+						<br>
+						<div class="background"><!--div for translucent background-->
+						<p>
+							Giving the user a peak at what they should expect from a webpage is always a good idea. The informations page is all about giving the user a general knowledge about what to expect from a particular page. The referenced webpage has a similar concept but a completely different design as it is shown. Using 'flex' for individual cards, the informarion page was completed.
+						</p>
+						</div>
+
+						<h1><hr style="margin-bottom: 25px;">
+
+						Blogs:
+
+						</h1>
+							<br>
+							<div class="flip-card"><!--div for flip card-->
+								
+								<div class="flip-card-inner"><!--div for flip card content-->
+								
+									<div class="flip-card-front"><!--div for flip card front-->
+										<img src="../images/blogA.PNG" alt="Screenshot of home screen" style="width: 900px; height: 500px;">			
+									</div><!--end of div for flip card front-->
+								
+									<div class="flip-card-back"><!--div for flip card back-->
+										<a href="https://medium.com/@LearnMore/hour-of-code-six-years-on-4c5d8184225b" style="padding: 0; background-color: rgba(0,0,0,0);" target="_blank">
+										<img src="../images/blogR.PNG" alt="Home reference" style="width: 900px; height: 500px;">
+										</a>
+									</div><!--end of div for flip card back-->
+								</div><!--end of div for flip card content-->
+							</div><!--end of div for flip card-->
+
+						<p class="size">*Hover over the webpage to see the referenced website and click on it to open the aforementioned website.</p>
+						<br>
+						<div class="background"><!--div for translucent background-->
+						<p>
+							For this webpage, the referenced website has used an image on top of their article with heading even before the image. Comparing that to blog page, a similar format is used with heading on the top, and article on the bottom. The difference is that on blog page, instead of an image, multiple images are used and an image slider is created. With different div tags for every paragraph, the blog page was completed.
+						</p>
+						</div>						
+	
+						<h1><hr style="margin-bottom: 25px;">
+						
+						Curriculum Vitae:
+						
+						</h1>
+							<br>
+							<div class="flip-card"><!--div for flip card-->
+								
+								<div class="flip-card-inner"><!--div for flip card content-->
+								
+									<div class="flip-card-front"><!--div for flip card front-->
+										<img src="../images/CVA.PNG" alt="Screenshot of home screen" style="width: 900px; height: 500px;">			
+									</div><!--end of div for flip card front-->
+								
+									<div class="flip-card-back"><!--div for flip card back-->
+										<a href="https://www.visualcv.com/software-test-engineer-cv-examples-oynx/pdf/" style="padding: 0; background-color: rgba(0,0,0,0);" target="_blank">
+										<img src="../images/CVR.PNG" alt="Home reference" style="width: 900px; height: 500px;">
+										</a>
+									</div><!--end of div for flip card back-->
+								</div><!--end of div for flip card content-->
+							</div><!--end of div for flip card-->
+
+						<p class="size">*Hover over the webpage to see the referenced website and click on it to open the aforementioned website.</p>
+						<br>
+						<div class="background"><!--div for translucent background-->
+						<p>
+							To get as close to the referenced template as possible, table tag was used to create an appealing Curriculum Vitae. An image was used as a backgroud on top of the page with my name and contact information displayed on it with the help of absolute position. The referenced website is a template for a CV. It has used a different font style compared to the project and has a different colour palette.
+ 						</p>
+						</div>
+
+						<h1><hr style="margin-bottom: 25px;">
+						
+						Contact Us:
+						
+						</h1>
+							<br>
+							<div class="flip-card"><!--div for flip card-->
+								
+								<div class="flip-card-inner"><!--div for flip card content-->
+								
+									<div class="flip-card-front"><!--div for flip card front-->
+										<img src="../images/contactA.PNG" alt="Screenshot of home screen" style="width: 900px; height: 500px;">			
+									</div><!--end of div for flip card front-->
+								
+									<div class="flip-card-back"><!--div for flip card back-->
+										<a href="https://docs.google.com/forms/d/15EaeuO1e5qVUKG_r-2CyKwRbn47cIeeCcqlAsOnYyC8/edit" style="padding: 0; background-color: rgba(0,0,0,0);" target="_blank">
+										<img src="../images/contactR.PNG" alt="Home reference" style="width: 900px; height: 500px;">
+										</a>
+									</div><!--end of div for flip card back-->
+								</div><!--end of div for flip card content-->
+							</div><!--end of div for flip card-->
+
+						<p class="size">*Hover over the webpage to see the referenced website and click on it to open the aforementioned website.</p>
+						<br>
+						<div class="background"><!--div for translucent background-->
+						<p>
+							For contact us page, google forms was referenced as their design was simple and elegant. In this particular page, span tag was used to change the colour of only a certain part of a text as shown in the screenshot above; signalling the particular input type to be mandatorily filled out. Select tag was used for selection of date of birth, radio buttons were used for gender and CSS was used to enhance the features of this particular form, completing this webpage.
+						</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!--Footer at the end of the webpage-->
+		<footer>
+			
+			<a href="https://www.instagram.com/mediokrity_/" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="../images/instagram.png" style="height: 100px; width: 100px;">
+			</a>
+
+			<a href="https://www.linkedin.com/in/krity-dangol-2469aa20a/" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="../images/linkedin.png" style="height: 45px; width: 45px; margin-bottom: 27px";>
+			</a>
+
+			<div class="tooltip">
+				<input type="text" value="mediokrity#3087" id="myInput" style="width:1px; height:0px;background-color:black; border:none;">
+
+				<button onclick="myFunction()" onmouseout="outFunc()" style="padding: 0px 0px; border: none; background-color: #000000;">
+					<span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+					<img src="../images/discord.png" style="height: 50px; width: 60px; margin-left: 10px; margin-bottom: 22px;">
+				</button>
+			</div>
+			
+			<a href="https://github.com/mediokrity" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="../images/github.png" style="height: 60px; width: 60px; margin-left: 10px; margin-bottom: 18px;">
+			</a>
+
+			<hr>
+			
+			<p style="margin-top: 15px">Copyright &copy; 2020 Krity Dangol, All Rights Reserved. Images: Unsplash.com</p>
+
+		</footer><!--end of footer-->
+		<script src="../js/typed.js"></script>
+	</div>
+</body>
+</html>

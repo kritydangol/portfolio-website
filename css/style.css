@@ -1,0 +1,153 @@
+a:link, a:visited{ /*Styling for links*/
+	color: #000000;
+	padding: 13px 25px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+a:hover{ /*To create hover effect on links*/
+	background-color: #AEB6BE;
+}
+
+/*header*/
+header{
+	background-color: #ffffff;
+	width: 100%;
+	height:100px;
+}
+
+/*for logo container*/
+.logodiv{
+	width: 10%;
+	height: 90px;
+	margin: 0px;
+	float: left;
+}
+
+/*for logo image*/
+a.logoimg{
+	padding: 0px 0px;
+	display: flex;
+	margin-left: 30px;
+}
+
+nav{
+	height: 65%;
+	margin-right: 10px;
+	margin-top: 25px;
+	float: right;
+}
+
+img{
+	height: 100px;
+}
+
+/*for background of home page*/
+.home{
+	background-image: url("../images/home.jpg");
+	background-color: #DEDEDE;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+/*for background of blog page*/
+.blog{
+	background-image: url("../images/blog.jpg");
+	background-color: #DEDEDE;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+/*for background of CV page*/
+.CV{
+	background-image: url("../images/CV.jpg");
+	background-color: #DEDEDE;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+/*for background of contactus page*/
+.contactus{
+	background-image: url("../images/contactus.jpg");
+	background-color: #DEDEDE;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative; 
+}
+/*for background of research page*/
+.research{
+	background-image: url("../images/research.jpg");
+	background-color: #DEDEDE;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative; 	
+}
+/*for translucrnt backgrounf*/
+.background{
+	text-align: center;
+	color: black;
+	padding: 20px;
+	background-color: rgba(255,255,255,0.7);
+	text-align: left;
+	line-height: 25px;
+}
+
+/*footer*/
+footer{
+	background-color: #000000;
+	color: #ffffff;
+	width: 100%;
+	height: 150px;
+	text-align: center;
+}
+
+
+/*for tooltip in disord copy to clipboard*/
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 140px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px;
+	position: absolute;
+	z-index: 1;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -75px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext:after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+}

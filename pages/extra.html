@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn more</title>
+
+	<meta name="description" content="Information">
+	<meta name="keywords" content="extra page, coursework, info, Information, extra, blog, contact, CV, Research">
+
+	<link rel="stylesheet" href="../css/style.css">
+ 
+	<style>
+		*
+		{
+			margin: 0px auto;
+			font-family: arial;
+		}
+
+		.card {/*for creation of cards*/
+		    padding: 20px;
+		    margin-top: 20px;
+		    height: 330px;
+		}
+
+		.row {/*using flex*/
+		    display: flex;
+		}
+		/*flex properties for left and right cards*/
+		.left {
+		    flex: 50%;
+		    padding: 20px;
+		    padding-top: 0px;
+		    padding-right: 10px;
+		}
+
+		.right {
+		    flex: 50%;
+		    padding: 20px;
+		    padding-top: 0px;
+		    padding-left: 10px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<!--creating a wrapper-->
+	<div style="width: 100%; height: auto;">
+
+		
+		<!--Development header content and navigation-->
+		<header>
+			<!--Div for logo-->
+			<div class="logodiv">
+			
+				<a href="../index.html" class="logoimg">
+
+					<img src="../images/logo.png">
+			
+				</a>			
+			</div><!--end of div for logo-->
+
+			<nav>
+			
+				<a href="../index.html">Home</a>
+				<a href="extra.html" style="color: #E59866">Information</a>
+				<a href="blog.html">Blogs</a>
+				<a href="CV.html">CV</a>
+				<a href="contactus.html">Contact Us</a>
+				<a href="research.html">Research</a>
+
+			</nav>
+
+		</header><!--end of header-->
+
+		<main style="width: 100%; height: 808px; background-color: #DEDEDE;">
+			<div class="row" ><!--div for row-->
+
+				<div class="left"><!--div for left cards-->
+
+				  	<div class="blog card"><!--div for background of card-->
+				   	 	<div class="background"> <!--div for translucent background-->
+				   	 		<h2>BLOG</h2>
+				    		<br>
+				    		<p>
+				    			Technology is an inevitable part of the human race in today's day and age.
+				    			 Here, you can find out how it affects us!
+				    			 
+				    			 <br><br>
+
+				    			<b>Want to read more? Click on the button below!</b>
+				    		</p>
+
+				    		<br>
+				    		<button>
+				    		<a href="blog.html" style=" background-color: rgba(0,0,0,0);">
+				    			Read More
+				    		</a>
+				    		</button>
+
+				    	</div><!--end of div for translucent background-->
+					</div><!--end of div for background of card-->
+
+					<div class="contactus card"><!--div for background of card-->
+				    	<div class="background"><!--div for translucent background-->
+					    	<h2>CONTACT</h2>
+					  		<br>
+					  		<p>					  			
+				    			Get in touch with us! Here, you can directly send us a message! To find me in other platforms, scroll to the footer!
+				    		
+				    			<br><br>
+				    		
+				    			<b>Want to contact me? Click on the button below!</b>
+					  		</p>
+					  		
+					  		<br>
+					  		<button>
+					  		<a href="contactus.html" style=" background-color: rgba(0,0,0,0);">
+					  			Contact Us
+					  		</a>
+					  		</button>
+					    </div><!--end of div for translucent background-->
+					</div><!--end of div for background of card-->
+				</div><!--end of div for left cards-->
+
+				
+				<div class="right"><!--div for right cards-->
+					
+					<div class="CV card"><!--div for background of card-->
+				    	<div class="background"><!--end of div for translucent background-->
+					    	<h2>CV AND PORTFOLIO</h2>
+					  		<br>
+					  		<p>					  			
+				    			I'm Krity Dangol! A fresh mind waiting to be hired. Here, you can find my CV and a link to my Portfolio!
+				    			
+				    			<br><br>
+				    			
+				    			<b>Want to hire me? Click on the button below!</b>
+					  		</p>
+					  		
+					  		<br>
+					  		<button>
+					  		<a href="CV.html" style=" background-color: rgba(0,0,0,0);">
+					  			View CV
+					  		</a>
+					  		</button>
+					  	</div><!--end of div for translucent background-->
+				    </div><!--end of div for background of card-->
+					
+					<div class="research card"><!--div for background of card-->
+						<div class="background"><!--end of div for translucent background-->
+					    	<h2>RESEARCH</h2>
+					  		<br>
+					  		<p>
+				    			Lot of research was done for the completion of this project.
+				    			 Here, you can find the interesting websites that were analysed!
+					  		
+					  			<br><br>
+				    		
+				    			<b>Want to see more? Click on the button below!</b>
+					  		</p>
+					  		
+					  		<br>
+					  		<button>
+					  		<a href="research.html" style=" background-color: rgba(0,0,0,0);">
+					  			See More
+					  		</a>
+					  		</button>
+				  		</div><!--end of div for translucent background-->
+				    </div><!--end of div for background of card-->			    
+				</div><!--end of div for right cards-->
+			</div><!--end of div for row-->
+		</main>
+
+		<!--Footer at the end of the webpage-->
+		<footer>
+			
+			<a href="https://www.instagram.com/mediokrity_/" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="../images/instagram.png" style="height: 100px; width: 100px;">
+			</a>
+
+			<a href="https://www.linkedin.com/in/krity-dangol-2469aa20a/" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="../images/linkedin.png" style="height: 45px; width: 45px; margin-bottom: 27px";>
+			</a>
+
+			<div class="tooltip">
+				<input type="text" value="mediokrity#3087" id="myInput" style="width:1px; height:0px;background-color:black; border:none;">
+
+				<button onclick="myFunction()" onmouseout="outFunc()" style="padding: 0px 0px; border: none; background-color: #000000;">
+					<span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+					<img src="../images/discord.png" style="height: 50px; width: 60px; margin-left: 10px; margin-bottom: 22px;">
+				</button>
+			</div>
+			
+			<a href="https://github.com/mediokrity" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="../images/github.png" style="height: 60px; width: 60px; margin-left: 10px; margin-bottom: 18px;">
+			</a>
+
+			<hr>
+			
+			<p style="margin-top: 15px">Copyright &copy; 2020 Krity Dangol, All Rights Reserved. Images: Unsplash.com</p>
+
+		</footer><!--end of footer-->
+		<script src="../js/typed.js"></script>
+	</div><!--end of div for wrapper-->
+</body>
+</html>

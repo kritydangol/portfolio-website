@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+
+	<meta name="description" content="CV">
+	<meta name="keywords" content="Curriculum Vitae, CV, portfolio, portfolio website, Information">
+
+	<link rel="stylesheet" href="../css/style.css">
+ 
+	<style>
+		*
+		{
+			margin: 0px auto;
+			font-family: arial;
+		}
+		/*styling for text on top of image*/
+		.texts{
+			position: absolute;
+			top: 7%;
+			left: 39%;
+			color: white;
+			text-align: center;
+		}
+		/*CSS for dots in between contact information*/
+		.dot {
+			height: 9px;
+			width: 9px;
+			background-color: white;
+			border-radius: 50%;
+			display: inline-block;
+		}
+
+		button{
+			background-color: rgba(0, 0, 0, 0);
+			border: none;
+			height: 100%;
+			width: 80px;
+		}
+
+		/*for hover effect on button*/
+		button:hover{
+			background-color: #DEDEDE;
+		}
+		/*for link on text*/
+		a.features{
+			color: #117A65; 
+			font-size: 20px;
+			background-color: rgba(0, 0, 0, 0);
+			padding: 0px 0px;
+			font-style: italic; 
+		}
+		/*for hover effect on link*/
+		a.features:hover{
+			color: #51AA98
+		}
+
+		table{
+			width: 90%;
+			height: 100%;
+			line-height:50px;
+		}
+		
+		h2{
+			padding: 40px;
+			text-align: center;
+		}
+
+		td{
+			padding-left: 30px;
+			font-weight: bold;
+		}
+
+		/*for fixing the banner at the bottom*/
+		div.fix{
+			text-align: right;
+			padding-right: 130px; 
+			height: 43px;
+			background-color: rgba(17, 122, 101, 0.8);
+			position: fixed;
+			bottom: 0;
+			right: 0;
+			width: 100%;
+		}
+
+		/*container for skill bar*/
+		.container {
+	 		 width: 100%; /* Full width */
+	 		 background-color: rgba(222,222,222,0.5); /* translucent background */
+		}
+		/*for text on skill bar*/
+		.skills {
+			text-align: right; /* Right-align text */
+			padding: 0px;
+			color: white; /* White text color */
+		}
+		/*for 60% skill*/
+		.sixty{
+			width: 60%;
+			margin-left: 0px;
+			background-color: rgba(17,122,101,0.5);
+		}
+		/*for 70% skill*/
+		.seventy{
+			width: 70%;
+			margin-left: 0px;
+			background-color: rgba(17,122,101,0.5);
+		}
+		/*for 80% skill*/
+		.eighty{
+			width: 80%;
+			margin-left: 0px;
+			background-color: rgba(17,122,101,0.5);
+		}
+		/*for 90% skill*/
+		.ninety{
+			width: 90%;
+			margin-left: 0px;
+			background-color: rgba(17,122,101,0.5);	
+		}
+		
+		</style>
+</head>
+<body>
+
+	<!--creating a wrapper-->
+	<div style="width: 100%; height: auto;">
+
+		
+		<!--Development header content and navigation-->
+		<header>
+			<!--Div for logo-->
+			<div class="logodiv">
+			
+				<a href="../index.html" class="logoimg">
+
+					<img src="../images/logo.png">
+				
+				</a>
+			
+			</div><!--end of div for logo-->
+
+			<nav>
+			
+				<a href="../index.html">Home</a>
+				<a href="extra.html">Information</a>
+				<a href="blog.html">Blogs</a>
+				<a href="CV.html" style="color: #E59866">CV</a>
+				<a href="contactus.html">Contact Us</a>
+				<a href="research.html">Research</a>
+
+			</nav>
+		</header>
+
+		<main style="width: 100%; height: auto;">
+			<div class="CV"><!--div for background image-->
+				<div class="background" style="width: 80%; height: auto; padding: 0px"><!--div for translucent background-->
+					
+					<div><!--div for content-->
+						<img src="../images/picture.jpg" style="height: 500px; width: 100%;">
+						
+							<div style="margin-left: 20px; border: solid; border-radius: 50%; width: 200px; height: 200px; position: absolute; top: 14%;"><!--div for picture-->
+								
+								<img src="../images/profile.png" style="background-color: rgba(255,255,255,0.4); border-radius: 50%; height: 200px; width:200px;">
+							
+							</div><!--end of div for picture-->
+						
+
+						<div class="texts"><!--div for text--> 
+							
+							<h1 style="font-size: 40px; padding: 15px"><u>KRITY DANGOL</u></h1>
+							
+							<h3><i>UNDER-GRADUATE STUDENT</i></h3>
+							
+							<p><b>
+								Sanepa
+							<span class="dot"></span>
+							
+								Lalitpur
+							<span class="dot"></span>
+							
+							<a href="https://mail.google.com/" target="_blank" style="background-color: rgba(0,0,0,0); color: white; padding: 0px;">
+								<u>
+								kritydangol1@gmail.com
+								</u>
+							</a>
+							</b></p>
+						</div><!--end of div for text--> 
+					</div><!--end of div for content-->
+
+					<div class="fix"><!--div for banner fixed at bottom of the screen-->
+
+						<button><a href="#education" style=" background-color: rgba(0, 0, 0, 0); padding: 0px 0px; color: white;}"> Education </a></button>
+
+						<button><a href="#skills" style=" background-color: rgba(0, 0, 0, 0); padding: 0px 0px; color: white;}"> Skills </a></button>
+						
+						<button><a href="#portfolio" style=" background-color: rgba(0, 0, 0, 0); padding: 0px 0px; color: white;}"> Portfolio </a></button>
+						
+						<button><a href="#hobbies" style=" background-color: rgba(0, 0, 0, 0);	padding: 0px 0px; color: white;}"> Hobbies </a></button>
+					</div><!--end of div for banner fixed at bottom of the screen-->
+
+
+					<div style="padding-top: 50px;" ><!--div for table-->						
+
+						<table>
+							<tr>
+								<th colspan="2" id="education">
+									<h2>EDUCATION</h2>
+								</th>
+							</tr>
+							<tr>
+								<td>
+									<h3>
+										<a href="http://gyanodaya.edu.np/" target="_blank" class="features"> Gyanodaya Bal Batika </a>
+									</h3>
+									<p>2007-2017</p>
+								</td>
+								<td>
+									<p style="font-size: 20px">Schooling</p>
+									<p>GPA: 3.55</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>
+									<a href="https://plustwo.davnepal.com/" target="_blank" class="features"> D.A.V. College </a>
+										</h3>
+									<p>2017-2019</p>
+								</td>
+								<td>
+									<p style="font-size: 20px">High School</p>
+									<p>GPA: 2.67</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>
+									<a href="https://islington.edu.np/" target="_blank" class="features"> Islington College </a></h3>
+									<p>2019-2022</p>
+								</td>
+								<td>
+									<p style="font-size: 20px">Bachelor of Information Technology, Computing</p>
+									<p>Ongoing, Working hard!</p>
+								</td>
+							</tr>
+							
+
+							<tr>
+								<th colspan="2" id="skills">
+									<h2>SKILLS</h2>
+								</th>
+							</tr>
+							<tr>
+								<td>
+									<h3 style="font-size: 20px;">Languages</h3>
+								</td>
+								<td>
+									<p>HTML</p>
+										<div class="container">
+											<div class="skills seventy">70%</div>
+										</div>
+
+									<p>CSS</p>
+										<div class="container">
+											<div class="skills seventy">70%</div>
+										</div>
+
+									<p>JavaScript</p>
+										<div class="container">
+											<div class="skills sixty">60%</div>
+										</div>
+
+									<p>SQL</p>
+										<div class="container">
+											<div class="skills eighty">80%</div>
+										</div>
+									
+									<p>Java</p>
+										<div class="container">
+											<div class="skills sixty">60%</div>
+										</div>
+									
+									<p>Python</p>
+										<div class="container">
+											<div class="skills seventy">70%</div>
+										</div>
+								</td>
+							</tr>
+							
+							<tr>
+								<th>
+									<h3 style="font-size: 20px;">Applications</h3>
+								</th>
+								<td>
+									<p>Word</p>
+										<div class="container">
+											<div class="skills ninety">90%</div>
+										</div>
+
+									<p>Excel</p>
+										<div class="container">
+											<div class="skills seventy">70%</div>
+										</div>
+
+									<p>PowerPoint</p>
+										<div class="container">
+											<div class="skills seventy">70%</div>
+										</div>
+								</td>
+							</tr>
+
+
+							<tr>
+								<th colspan="2" id="portfolio">
+									<h2>PORTFOLIO</h2>
+								</th>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<div style="text-align: center;">
+									<p>Click on the <a href="https://github.com/mediokrity" target="_blank" style="padding: 0px; color: blue; font-size: 15px;"><u>link</u></a> to look at some of the projects I have completed.</p>
+									<br>
+
+								</td>
+							</tr>
+							
+							
+						</table>
+						
+					</div><!--end of div for table-->
+				</div><!--end of div for translucent background-->
+			</div><!--end of div for background image-->
+		</main>
+
+		<!--Footer at the end of the webpage-->
+		<footer>
+			
+			<a href="https://www.instagram.com/mediokrity_/" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="../images/instagram.png" style="height: 100px; width: 100px;">
+			</a>
+
+			<a href="https://www.linkedin.com/in/krity-dangol-2469aa20a/" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="../images/linkedin.png" style="height: 45px; width: 45px; margin-bottom: 27px";>
+			</a>
+
+			<div class="tooltip">
+				<input type="text" value="mediokrity#3087" id="myInput" style="width:1px; height:0px;background-color:black; border:none;">
+
+				<button onclick="myFunction()" onmouseout="outFunc()" style="padding: 0px 0px; border: none; background-color: #000000;">
+					<span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+					<img src="../images/discord.png" style="height: 50px; width: 60px; margin-left: 10px; margin-bottom: 22px;">
+				</button>
+			</div>
+			
+			<a href="https://github.com/mediokrity" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="../images/github.png" style="height: 60px; width: 60px; margin-left: 10px; margin-bottom: 18px;">
+			</a>
+
+			<hr>
+			
+			<p style="margin-top: 15px">Copyright &copy; 2020 Krity Dangol, All Rights Reserved. Images: Unsplash.com</p>
+
+		</footer><!--end of footer-->
+		<script src="../js/typed.js"></script>
+	</div>
+</body>
+</html>

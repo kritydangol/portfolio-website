@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+
+	<meta name="description" content="Contact">
+	<meta name="keywords" content="form, contact, message, leave a message">
+
+	<link rel="stylesheet" href="../css/style.css">
+ 
+	<style>
+		*
+		{
+			margin: 0px auto;
+			font-family: arial;
+		}
+		/*CSS for components of the form*/
+		input[type=text], select {
+			width: 100%;
+			padding: 12px 20px;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		textarea, select {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		input[type=submit], select {
+			width: 100%;
+			padding: 12px 20px;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<!--creating a wrapper-->
+	<div style="width: 100%; height: 1050px;">
+
+		
+		<!--Development header content and navigation-->
+		<header>
+			<!--Div for logo-->
+			<div class="logodiv">
+			
+				<a href="../index.html" class="logoimg">
+
+					<img src="../images/logo.png">
+				
+				</a>
+			
+			</div>
+
+			<nav>
+			
+				<a href="../index.html">Home</a>
+				<a href="extra.html">Information</a>
+				<a href="blog.html">Blogs</a>
+				<a href="CV.html">CV</a>
+				<a href="contactus.html" style="color: #E59866">Contact Us</a>
+				<a href="research.html">Research</a>
+
+			</nav>
+		</header>
+
+		<main style="width: 100%; height: 800px;">
+			<div class="contactus"><!--div for background image-->
+				<div class="background" style="width: 80%; height: 91%; padding-top: 50px; text-align: center;"><!--div for translucent background-->
+	  				<h2>I'd love to hear from you!</h2>
+
+	  				<br>
+	  				
+	  				<h3>Consider leaving a message.</h3>
+	  				<br>
+					<form name="messageForm" onsubmit="validateForm()" style="background-color: rgba(0,0,0,0.1); padding: 20px; width: 70%; height: 80%">
+
+						<table style="width: 90%; line-height: 60px;">
+							<tr>
+								<th>First Name:
+									<span style="color: red;">*</span>
+								</th>
+								<th><input type="text" name="firstname" placeholder="First Name"></th>
+							</tr>
+							
+							<tr>
+								<th>Last Name:
+									<span style="color: red;">*</span>
+								</th>
+								<th><input type="text" name="lastname" placeholder="Last Name"></th>
+							</tr>
+								<tr>
+								<th>Gender:</th>
+								<th style="text-align: left;">
+									<input type="radio" name="gender" value="male" checked> Male
+									<input type="radio" name="gender" value="female"> Female
+									<input type="radio" name="gender" value="Other"> Other
+								</th>
+								
+								</tr>
+								
+							<tr>
+								<th>Date of Birth:</th>
+						
+								<th>
+									<select name="date" value="year" style="width: 32.5%">
+										<option>Year</option>
+										<option>2020</option>
+										<option>2019</option>
+										<option>2018</option>
+										<option>2017</option>
+										<option>2016</option>
+										<option>2015</option>
+										<option>2014</option>
+										<option>2013</option>
+										<option>2012</option>
+										<option>2011</option>
+										<option>2010</option>
+										<option>2009</option>
+										<option>2008</option>
+										<option>2007</option>
+										<option>2006</option>
+										<option>2005</option>
+										<option>2004</option>
+										<option>2003</option>
+										<option>2002</option>
+										<option>2001</option>
+										<option>2000</option>
+										<option>1999</option>
+										<option>1998</option>
+										<option>1997</option>
+										<option>1996</option>
+										<option>1995</option>
+										<option>1994</option>
+										<option>1993</option>
+										<option>1992</option>
+										<option>1991</option>
+										<option>1990</option>
+										<option>1989</option>
+										<option>1988</option>
+										<option>1987</option>
+										<option>1986</option>
+										<option>1985</option>
+										<option>1984</option>
+										<option>1983</option>
+										<option>1982</option>
+										<option>1981</option>
+										<option>1980</option>
+									</select>
+									<select name="date" value="Month" style="width: 32.5%">
+										<option>Month</option>
+										<option>January</option>
+										<option>February</option>
+										<option>March</option>
+										<option>April</option>
+										<option>May</option>
+										<option>June</option>
+										<option>July</option>
+										<option>August</option>
+										<option>September</option>
+										<option>October</option>
+										<option>November</option>
+										<option>December</option>
+									</select>
+									<select name="date" value="Day" style="width: 32.5%">
+										<option>Day</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+										<option>7</option>
+										<option>8</option>
+										<option>9</option>
+										<option>10</option>
+										<option>11</option>
+										<option>12</option>
+										<option>13</option>
+										<option>14</option>
+										<option>15</option>
+										<option>16</option>
+										<option>17</option>
+										<option>18</option>
+										<option>19</option>
+										<option>20</option>
+										<option>21</option>
+										<option>22</option>
+										<option>23</option>
+										<option>24</option>
+										<option>25</option>
+										<option>26</option>
+										<option>27</option>
+										<option>28</option>
+										<option>29</option>
+										<option>30</option>
+										<option>31</option>
+										<option>32</option>
+									</select>
+								</th>
+							</tr>
+								<tr>
+								<th>Message:
+									<span style="color: red;">*</span>
+									</th>
+								<th>
+									<textarea name="message" rows="10" cols="80" placeholder="Enter a Message"></textarea>
+								</th>
+							</tr>
+								<tr>
+								<th></th>
+								<th>
+									<input type="submit" value="Send">
+								</th>
+							</tr>
+						
+						</table>
+					</form>
+					<script>
+					 	function validateForm() {
+					 		var fname = document.forms["messageForm"]["firstname"].value;
+					 		var lname = document.forms["messageForm"]["lastname"].value;
+					 		var gender = document.forms["messageForm"]["gender"].value;
+					 		var date = document.forms["messageForm"]["date"].value;
+					 		var message = document.forms["messageForm"]["message"].value;
+
+					 		if (fname == "" && lname == "" && message == "") /*Checking if fname, lname and message is empty*/{
+					 			alert("Empty fields found. Please fill the form.");/*message displayed if conditions are met*/
+					 		}
+					 		else if (fname == "") {/*Checking if fname is empty*/
+					 			alert("First Name is mandatory!")/*message displayed if condition is met*/
+					 		}
+					 		else if (lname == "") {/*Checking if lname is empty*/
+					 			alert("Last Name is mandatory!")/*message displayed if condition is met*/
+					 		}
+					 		else if (message == "") {/*Checking if message is empty*/
+					 			alert("Message is mandatory!")/*message displayed if condition is met*/
+					 		}
+					 		else{
+					 			alert("Thank you for the feedback!")/*message displayed if all three are filled*/
+					 		}
+					 	}
+					 </script>
+
+				</div><!--end of div for translucent background-->
+			</div><!--end of div for background image-->
+		</main>
+
+		<!--Footer at the end of the webpage-->
+		<footer>
+			
+			<a href="https://www.instagram.com/mediokrity_/" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="../images/instagram.png" style="height: 100px; width: 100px;">
+			</a>
+
+			<a href="https://www.linkedin.com/in/krity-dangol-2469aa20a/" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="../images/linkedin.png" style="height: 45px; width: 45px; margin-bottom: 27px";>
+			</a>
+
+			<div class="tooltip">
+				<input type="text" value="mediokrity#3087" id="myInput" style="width:1px; height:0px;background-color:black; border:none;">
+
+				<button onclick="myFunction()" onmouseout="outFunc()" style="padding: 0px 0px; border: none; background-color: #000000;">
+					<span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+					<img src="../images/discord.png" style="height: 50px; width: 60px; margin-left: 10px; margin-bottom: 22px;">
+				</button>
+			</div>
+			
+			<a href="https://github.com/mediokrity" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="../images/github.png" style="height: 60px; width: 60px; margin-left: 10px; margin-bottom: 18px;">
+			</a>
+
+			<hr>
+			
+			<p style="margin-top: 15px">Copyright &copy; 2020 Krity Dangol, All Rights Reserved. Images: Unsplash.com</p>
+
+		</footer><!--end of footer-->
+		<script src="../js/typed.js"></script>
+	</div><!--end of div for wrapper-->
+</body>
+</html>

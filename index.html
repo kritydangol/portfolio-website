@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+
+	<meta name="description" content="Home">
+	<meta name="keywords" content="home page, coursework, home, portfolio website, hire, contact, CV, research">
+
+	<link rel="stylesheet" href="css/style.css">
+ 
+	<style>
+		*
+		{
+			margin: 0px auto;
+			font-family: arial;
+		}
+		
+		.text{/*created for positioning and background*/
+			text-align: center;
+			color: black;
+			background-color: rgba(255,255,255,0.4);
+			padding: 20px 70px;
+			position: absolute;
+			top: 30%;
+			left: 33%;
+		}
+	</style>
+</head>
+<body>
+
+	<!--creating a wrapper-->
+	<div style="width: 100%; height: auto;">
+
+		
+		<!--Development header content and navigation-->
+		<header>
+			<!--Div for logo-->
+			<div class="logodiv	">
+			
+				<a href="index.html" class="logoimg">
+
+					<img src="images/logo.png">
+				
+				</a>
+			
+			</div><!--End of div for logo-->
+
+			<!--navigation bar-->
+			<nav>
+				<a href="index.html" style="color: #E59866">Home</a>
+				<a href="pages/extra.html">Information</a>
+				<a href="pages/blog.html">Blogs</a>
+				<a href="pages/CV.html">CV</a>
+				<a href="pages/contactus.html">Contact Us</a>
+				<a href="pages/research.html">Research</a>
+
+			</nav>
+		</header><!--end of header-->
+
+
+		<main style="width: 100%; height: 700px;">
+			<div class="home">
+				<div class="text">
+		    		
+		    		<h1>Welcome to Home Page!</h1>
+		    			<br>
+		    		<h3 class="background" style="width: 350px;">To Learn More about <span class="typetext"></span>|</h3>
+		    			<br>
+		    		<button><a href="pages/extra.html" style=" background-color: rgba(0,0,0,0);"> Click On Me!</a></button>
+	    		
+	    		</div><!--closing div with text class-->
+    		</div><!--closing div with home class-->
+		</main>
+
+
+		<!--Footer at the end of the webpage-->
+		<footer>
+			
+			<a href="https://www.instagram.com/mediokrity_/" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="images/instagram.png" style="height: 100px; width: 100px;">
+			</a>
+
+			<a href="https://www.linkedin.com/in/krity-dangol-2469aa20a/" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="images/linkedin.png" style="height: 45px; width: 45px; margin-bottom: 27px";>
+			</a>
+
+			<div class="tooltip">
+				<input type="text" value="mediokrity#3087" id="myInput" style="width:1px; height:0px;background-color:black; border:none;">
+
+				<button onclick="myFunction()" onmouseout="outFunc()" style="padding: 0px 0px; border: none; background-color: #000000;">
+					<span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+					<img src="images/discord.png" style="height: 50px; width: 60px; margin-left: 10px; margin-bottom: 22px;">
+				</button>
+			</div>
+			
+			<a href="https://github.com/mediokrity" target="_blank" style="padding: 0px 0px; background-color: #000000;">
+				<img src="images/github.png" style="height: 60px; width: 60px; margin-left: 10px; margin-bottom: 18px;">
+			</a>
+
+			<hr>
+			
+			<p style="margin-top: 15px">Copyright &copy; 2020 Krity Dangol, All Rights Reserved. Images: Unsplash.com</p>
+
+		</footer><!--end of footer-->
+    	<script src="js/typed.js"></script><!--External JS linked-->
+	</div><!--end of wrapper-->
+</body>
+</html>
