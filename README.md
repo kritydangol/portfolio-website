@@ -11,10 +11,10 @@ A portfolio website created with html, css and js
 ![Information page snippet](/images/extraA.PNG)
 
 ### Blogs:
-![Blogs page snippet](/images/blogA.jpg)
+![Blogs page snippet](/images/blogA.PNG)
 
 ### CV:
 ![CV page snippet](/images/CVA.PNG)
 
 ### Contact:
-![Contact page snippet](/images/ContactA.PNG)
+![Contact page snippet](/images/contactA.PNG)
