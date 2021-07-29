@@ -8,13 +8,13 @@ A portfolio website created with html, css and js
 ![Home page snippet](/images/homeA.PNG)
 
 ### Information:
-![Information page snippet](/images/informationA.PNG)
+![Information page snippet](/images/informationA.jpg)
 
 ### Blogs:
-![Blogs page snippet](/images/blogsA.PNG)
+![Blogs page snippet](/images/blogsA.jpg)
 
 ### CV:
-![CV page snippet](/images/CVA.jpg)
+![CV page snippet](/images/CVA.PNG)
 
 ### Research:
-![Research page snippet](/images/researchA.jpg)
+![Research page snippet](/images/researchA.PNG)
